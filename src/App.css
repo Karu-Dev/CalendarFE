@@ -1,0 +1,85 @@
+.events {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+.event {
+  min-width: 100px;
+  width: max-content;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 6px black;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+  background-color: rgb(46, 106, 219);
+  border: 1px solid #00000000;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.event:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(46, 106, 219);
+  border: 1px solid rgb(46, 106, 219);
+}
+
+.back {
+  box-shadow: 3px 3px 6px black;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(46, 106, 219);
+  border: 1px solid rgb(46, 106, 219);
+}
+.back:hover {
+  background-color: rgb(46, 106, 219);
+  border: 1px solid #00000000;
+  color: white;
+  user-select: none;
+}
+.Home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 300px;
+  .button {
+    min-width: 100px;
+    width: max-content;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 6px black;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+    background-color: rgb(46, 106, 219);
+    border: 1px solid #00000000;
+    color: white;
+    transition: all 0.2s ease-in-out;
+  }
+  .button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(46, 106, 219);
+    border: 1px solid rgb(46, 106, 219);
+  }
+}
