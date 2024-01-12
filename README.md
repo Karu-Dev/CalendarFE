@@ -1,5 +1,5 @@
 # Running locally
 
-`$ npm i`
+run `npm i`
 
-`$ npm start`
+run `npm start`
